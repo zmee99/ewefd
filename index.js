@@ -1,5 +1,4 @@
 const { Client, Intents, Collection } = require('discord.js');
-const { TOKEN } = require('./config.json');
 
 const client = new Client({
     intents: [
@@ -11,7 +10,7 @@ const client = new Client({
 
 
 
-client.login(TOKEN);
+client.login.(process.evn.token);
 
 
 const prefix = "+"
